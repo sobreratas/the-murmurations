@@ -436,6 +436,18 @@ footer {
   text-align: center;
 }
 
+/*** INTERSECTION OBSERVER STYLES ***/
+.middle-card {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 600ms;
+}
+
+.middle-card.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 @media (min-aspect-ratio: 16/9) {
   .background-clip {
     width: 100%;

@@ -44,11 +44,11 @@
     </div> -->
     <!-- <span onclick="closeModal()"> <i class="fa-solid fa-times"></i></span> -->
     <!-- HAMBURGER MENU -->
-    <div class="hamburger-container">
+    <!-- <div class="hamburger-container">
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
-    </div>
+    </div> -->
 
     <!-- TOP CONTAINER -->
     <div class="x-row top-container">
@@ -85,14 +85,15 @@
 
     <!-- FULL VIDEO CONTAINER -->
     <div class="video-row">
-        <div class="full-video-container">
+        <div class="full-video-container middle-card">
             <iframe src="https://www.youtube.com/embed/CD9xDxHVB8g?si=ycn_4gl2ZLacjdOU" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
-        <p class="full-video-text">Bumblebee Girl</p>
-        <a href="https://www.youtube.com/@themurmurations1534" class="full-video-btn-link" target="_blank">More Videos</a>
+        <p class="full-video-text middle-card">Bumblebee Girl</p>
+        <a href="https://www.youtube.com/@themurmurations1534" class="full-video-btn-link middle-card" target="_blank">More
+            Videos</a>
     </div>
 
     <!-- THIRD CONTAINER -->
@@ -182,9 +183,12 @@
     <!-- FOOTER CONTAINER -->
     <footer>
         <div class="social-icons-container">
-            <a href="https://open.spotify.com/artist/7wKJurl3H6c5X0ihRcitk3" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-            <a href="https://music.apple.com/us/artist/the-murmurations/1181216683" target="_blank"><i class="fa-brands fa-apple"></i></a>
-            <a href="https://www.youtube.com/@themurmurations1534" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://open.spotify.com/artist/7wKJurl3H6c5X0ihRcitk3" target="_blank"><i
+                    class="fa-brands fa-spotify"></i></a>
+            <a href="https://music.apple.com/us/artist/the-murmurations/1181216683" target="_blank"><i
+                    class="fa-brands fa-apple"></i></a>
+            <a href="https://www.youtube.com/@themurmurations1534" target="_blank"><i
+                    class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="copyright-container">
             <p>&#169; Copyright The Murmurations 2024 <span class="year"></span>. All rights reserved.</p>
@@ -192,62 +196,8 @@
         </div>
     </footer>
 
-    <!-- <script>
-        const menuBtn = document.querySelector(".menu-btn");
-        const menuExpanded = document.querySelector(".menu-expanded");
-        const nav = document.querySelector("nav");
-        const xMark = document.querySelector(".fa-times");
-        const mobileBarsBtn = document.querySelector(".mobile-bars");
-
-        function openModal() {
-            console.log("clicked")
-            menuBtn.addEventListener("click", () => {
-                menuExpanded.style.opacity = "1"
-                nav.style.color = "rgb(190, 190, 190)"
-                xMark.style.opacity = "1";
-            })
-        }
-
-        function closeModal() {
-            menuExpanded.style.opacity = "0"
-            nav.style.color = "#fff"
-            xMark.style.opacity = "0";
-        }
-
-        function openMobileModal() {
-            console.log("clicked")
-            mobileBarsBtn.addEventListener("click", () => {
-                menuExpanded.style.opacity = "1"
-                nav.style.color = "rgb(190, 190, 190)"
-                xMark.style.opacity = "1";
-            })
-        }
-    </script> -->
     <script>
-        const menuBtn = document.querySelector(".menu-btn");
-        const menuExpanded = document.querySelector(".menu-expanded");
-        const nav = document.querySelector("nav");
-        const xMark = document.querySelector(".fa-times");
-        const mobileBarsBtn = document.querySelector(".mobile-bars");
 
-        // Attach event listeners when the page loads
-        menuBtn.addEventListener("click", () => {
-            menuExpanded.style.opacity = "1";
-            nav.style.color = "rgb(190, 190, 190)";
-            xMark.style.opacity = "1";
-        });
-
-        mobileBarsBtn.addEventListener("click", () => {
-            menuExpanded.style.opacity = "1";
-            nav.style.color = "rgb(190, 190, 190)";
-            xMark.style.opacity = "1";
-        });
-
-        function closeModal() {
-            menuExpanded.style.opacity = "0";
-            nav.style.color = "#fff";
-            xMark.style.opacity = "0";
-        }
     </script>
 
 </body>
