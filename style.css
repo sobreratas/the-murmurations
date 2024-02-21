@@ -167,7 +167,7 @@ nav {
   height: 100%;
   padding: 100px 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-  url("/images/star-background.jpg") no-repeat center bottom / cover;
+  url("images/star-background.jpg") no-repeat center bottom / cover;
   /* background-color: rgb(63, 93, 154); */
   color: #fff;
 }
@@ -237,12 +237,12 @@ nav {
 
 .video-row {
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-    url("/images/sunflower.jpg") no-repeat center bottom / cover;
+    url("images/sunflower.jpg") no-repeat center bottom / cover;
 }
 
 .second-container {
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-    url("/images/colored-pencil-background.jpg") no-repeat center bottom / cover;
+    url("images/colored-pencil-background.jpg") no-repeat center bottom / cover;
 }
 
 .third-container {
