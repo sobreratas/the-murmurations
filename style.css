@@ -442,10 +442,22 @@ footer {
   color: #fff;
   background-color: #1e1e1e;
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 12px;
   padding: 35px;
+}
+
+.footer-inner-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 30px;
+  opacity: .3;
 }
 
 .social-icons-container i{
@@ -454,6 +466,10 @@ footer {
   margin: 0 12px;
 }
 
+.social-icons-container.footer-inner-container
+{
+  justify-content: end;
+}
 .social-icons-container i:hover {
   transform: translateY(-5px);
   filter: brightness(85%);
@@ -461,7 +477,9 @@ footer {
 }
 
 .copyright-container {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 /*** INTERSECTION OBSERVER STYLES ***/
@@ -586,6 +604,16 @@ footer {
 
   .box.content-on-top {
     justify-content: start;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+
+  .copyright-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
 }
