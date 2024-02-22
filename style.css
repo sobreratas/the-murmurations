@@ -124,6 +124,7 @@ nav {
   flex-wrap: wrap;
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 .album-cover {
@@ -439,7 +440,7 @@ nav {
 /*** FOOTER STYLES ***/
 footer {
   color: #fff;
-  background-color: #000;
+  background-color: #1e1e1e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -501,7 +502,32 @@ footer {
 }
 
 .circle-logo {
-  opacity: .3;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .05;
+  display: flex;
+  justify-content: center;
+}
+
+.circle-logo img {
+  width: 70%;
+  animation: rotation 30s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.header-logo {
+  z-index: 50;
 }
   .box {
     flex-basis: 100%;
@@ -561,6 +587,7 @@ footer {
   .box.content-on-top {
     justify-content: start;
   }
+
 }
 
 /*** MOBILE STYLES ***/
