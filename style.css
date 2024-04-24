@@ -8,6 +8,7 @@
 
 body {
   position: relative;
+  background-color: #1e1e1e;
   /* this streches the video to the bottom of its container */
 }
 
