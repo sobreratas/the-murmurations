@@ -456,8 +456,8 @@ footer {
 }
 
 .footer-logo {
-  width: 30px;
-  opacity: .3;
+  width: 200px;
+  /* opacity: .3; */
 }
 
 .social-icons-container i{
